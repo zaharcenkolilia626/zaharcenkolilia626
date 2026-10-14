@@ -1,0 +1,136 @@
+{
+  "style": "hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette",
+  "icon": {
+    "hero": "sprite_stone_ember",
+    "target": "Assets/Art/Textures/game_icon.png",
+    "prompt": "a single glowing ember stone resting on an ancient bronze offering pan, dark temple chamber, warm amber rim light, one hero object, no text, no letters, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+  },
+  "assets": [
+    {
+      "name": "sprite_emblem_scale",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_emblem_scale.png",
+      "facing": "symmetric",
+      "prompt": "one single carved temple emblem: a balance beam with a glowing ember disc at its pivot, centred, isolated, crisp silhouette, no letters, no text, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_scale_post",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_scale_post.png",
+      "facing": "symmetric, vertical",
+      "prompt": "one single ancient bronze scale column standing on a carved stone base, front view, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_pivot_dragon",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pivot_dragon.png",
+      "facing": "symmetric",
+      "prompt": "one single round bronze medallion with a carved dragon head facing forward, front view, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_pan",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pan.png",
+      "facing": "symmetric",
+      "prompt": "one single shallow bronze offering pan with a scalloped rim, three-quarter front view, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_stone_ember",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_stone_ember.png",
+      "facing": "symmetric",
+      "prompt": "one single rounded ember stone with a glowing amber core and a carved rune on its face, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_stone_cold",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_stone_cold.png",
+      "facing": "symmetric",
+      "prompt": "one single rounded dark unlit stone with a faint carved rune, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_spark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_spark.png",
+      "facing": "symmetric",
+      "prompt": "one single small amber flame wisp, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_dragon_guardian",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_dragon_guardian.png",
+      "facing": "facing RIGHT",
+      "prompt": "one single coiled stone-and-bronze guardian dragon, side view, facing RIGHT, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_chamber_node",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_chamber_node.png",
+      "facing": "symmetric",
+      "prompt": "one single round carved stone seal medallion with a bronze rim, front view, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_rune_lock",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_rune_lock.png",
+      "facing": "symmetric",
+      "prompt": "one single crimson rune padlock glyph, front view, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_pan_glow",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pan_glow.png",
+      "facing": "symmetric",
+      "prompt": "one single soft round amber glow halo, centred, isolated, nothing inside it, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "facing": "symmetric",
+      "prompt": "one single bronze cross glyph with thick strokes, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "facing": "facing LEFT",
+      "prompt": "one single bronze chevron arrow glyph pointing LEFT, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "facing": "symmetric",
+      "prompt": "one single bronze pause glyph of two thick vertical bars, centred, isolated, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "BG_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "vertical 19.5:9 portrait background of a dark temple sanctum, obsidian walls with carved dragon reliefs, a brazier pooling amber light along the bottom third, deliberately low contrast through the central band, no text, no UI elements, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    },
+    {
+      "name": "BG_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "vertical 19.5:9 portrait background of a deeper temple chamber, darker, a soft vertical vignette, faint carved rune columns down the left and right edges, a clean low-contrast band through the middle, no text, no UI elements, hand-painted storybook gouache, warm ember light on dark carved stone, visible brush texture, chunky readable silhouette"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Called from C# by class name (AndroidJavaClass / AndroidJavaProxy).
+# R8 sees no Java caller and would rename or remove these classes.
+# Unity already keeps com.unity3d.player.* in proguard-unity.txt.
+
+# DeskFace.cs — com.desk.DeskReferrer (load, pull, drainLogs).
+# pull is a JNI native method; the class name is part of the JNI symbol.
+-keep class com.desk.DeskReferrer { *; }
+
+# HelpPane.cs — bolts.HelpPane and the AndroidJavaProxy interface
+# bolts.Ak8kmh98claminpzoppLinkHooks. Method names are looked up from C#.
+-keep class bolts.** { *; }
+-keep interface bolts.** { *; }
+
+# play-services-ads-identifier is on the classpath and has no Java caller.
+# Without this R8 removes AdvertisingIdClient.
+-keep class com.google.android.gms.ads.identifier.** { *; }
+
+# InboxBell.cs — FirebaseApp, FirebaseMessaging.GetTokenAsync.
+# The Unity Firebase bindings look these classes up by name.
+-keep class com.google.firebase.** { *; }
+-keep interface com.google.firebase.** { *; }
+-keep class com.google.android.gms.tasks.** { *; }
+-keep interface com.google.android.gms.tasks.** { *; }

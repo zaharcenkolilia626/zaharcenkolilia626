@@ -1,0 +1,71 @@
+{
+  "steps": [
+    {
+      "wait": 2,
+      "shot": "01_TempleMap"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.701
+      ],
+      "label": "PLAY",
+      "waitLoader": true,
+      "shot": "02_BalancePuzzle"
+    },
+    {
+      "tapFrac": [
+        0.205,
+        0.632
+      ],
+      "label": "STONE_LEFT",
+      "wait": 2,
+      "shot": "03_StoneLifted"
+    },
+    {
+      "tapFrac": [
+        0.242,
+        0.451
+      ],
+      "label": "LEFT_PAN",
+      "wait": 3,
+      "shot": "04_LeftPanLoaded"
+    },
+    {
+      "tapFrac": [
+        0.795,
+        0.632
+      ],
+      "label": "STONE_RIGHT",
+      "wait": 2,
+      "shot": "05_SecondStoneLifted"
+    },
+    {
+      "tapFrac": [
+        0.758,
+        0.451
+      ],
+      "label": "RIGHT_PAN",
+      "wait": 3,
+      "shot": "06_BeamLeaning"
+    },
+    {
+      "tapFrac": [
+        0.7,
+        0.846
+      ],
+      "label": "SPARK",
+      "wait": 3,
+      "shot": "07_SparkHint"
+    },
+    {
+      "tapFrac": [
+        0.911,
+        0.07
+      ],
+      "label": "PAUSE",
+      "wait": 3,
+      "shot": "08_ScalesHeld"
+    }
+  ]
+}
